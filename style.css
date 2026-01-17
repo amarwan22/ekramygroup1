@@ -833,12 +833,7 @@ body {
         transform: translateY(-8px) rotate(-45deg);
     }
      
-    .loader-content{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+     
       #products .container .section-title{
        display: flex;
        justify-content: center;
