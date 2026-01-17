@@ -868,10 +868,18 @@ body {
         font-size: 1.2rem;
     }
     
-    .section-title {
-        font-size: 2rem;
-    }
+     
     
+      #products .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
+      #about .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
     .features {
         grid-template-columns: 1fr;
     }
@@ -883,6 +891,7 @@ body {
     .brands-container {
         grid-template-columns: repeat(2, 1fr);
     }
+  
 }
 
 @media (max-width: 480px) {
