@@ -831,7 +831,21 @@ body {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .section-title {
+        font-size: 2rem;
+        margin-right: 100px;
+    }
     
+      #products .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
+      #about .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
     .nav-menu {
         position: fixed;
         right: -100%;
