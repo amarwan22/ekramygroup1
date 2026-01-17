@@ -816,7 +816,12 @@ body {
 }
 
 @media (max-width: 768px) {
-    
+     #loading-screen {
+        padding: 20px; /* إضافة مسافة */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .hamburger {
         display: block;
     }
