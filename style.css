@@ -833,8 +833,23 @@ body {
         transform: translateY(-8px) rotate(-45deg);
     }
      
-    
-       
+    .loader-content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      #products .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
+      #about .container .section-title{
+       display: flex;
+       justify-content: center;
+        
+    }
     .nav-menu {
         position: fixed;
         right: -100%;
