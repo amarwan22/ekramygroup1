@@ -880,6 +880,10 @@ body {
        justify-content: center;
         
     }
+    #contact .container .section-title{
+        display: flex;
+       justify-content: center;
+    }
     .nav-menu {
         position: fixed;
         right: -100%;
